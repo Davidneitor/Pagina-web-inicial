@@ -1,0 +1,76 @@
+body {
+    background-image: url('https://i.pinimg.com/originals/8b/30/71/8b3071feeff83f1e4a63ed231562ff0c.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background: url('https://64.media.tumblr.com/8b2a2d3957cf13e5548f08504f0e1d4a/tumblr_owsbgsWF5R1r5u9m2o3_r1_500.gif') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h1 {
+    color: rgb(205, 76, 76);
+    font-family: 'Comic Sans MS', cursive;
+    -webkit-text-stroke: 2px white; 
+    font-size: 86px;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-top: 20px;
+    margin: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Comic Sans MS';
+}
+
+footer {
+    font-weight: italic;
+    font-size: 12px;
+    font-family: 'Comic Sans MS';
+    text-align: center
+}
+
+h2 {
+    font-family: 'Comic Sans MS';
+    text-align: center
+}
+
+p {
+    font-family: 'Comic Sans MS';
+    text-align: center
+}
+
+a {
+    font-weight: bold;
+    font-family: 'Comic Sans MS';
+    text-align: center
+}
+
+.enlace {
+    transition: transform 0.3s, -webkit-transform 0.3s;
+    display: inline-block;
+  }
+
+.enlace:hover {
+    transform: scale(1.1); 
+    -webkit-text-stroke: 2px rgb(255, 255, 255); 
+  }
